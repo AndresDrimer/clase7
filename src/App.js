@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <img src={scaloneta} className="scaloneta animate__animated animate__backInLeft" />
+       <img src={scaloneta} className="scaloneta animate__animated animate__backInLeft" npm installalt="scaloneta" />
           <p>
           Hoy juega la Scaloneta
         </p>
