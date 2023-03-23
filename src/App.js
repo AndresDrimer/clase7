@@ -1,22 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import scaloneta from './scaloneta.jpg'
+import 'animate.css'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+       <img src={scaloneta} className="scaloneta animate__animated animate__backInLeft" />
+          <p>
+          Hoy juega la Scaloneta
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
